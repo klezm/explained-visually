@@ -12,6 +12,14 @@ The code here is quite outdated. You'll need to do the following to get things w
 
 - Ensure you're using the npm version from nvm used to install node v9 when you run npm install
 
+```bash
+nvm install 9
+nvm install 10
+nvm use 9
+nvm exec 9 node server.js --dev=true
+nvm exec 10 gulp
+```
+
 ## To get setup with the project locally, you'll need to first run
 
     npm install
